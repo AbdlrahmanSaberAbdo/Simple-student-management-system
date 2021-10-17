@@ -1,0 +1,25 @@
+{
+    "attributes": {
+        "full_name": {
+            "type": "string",
+            "mod": "unique"
+        },
+        "birthdate": {
+            "type": "date"
+        },
+        "email": {
+            "type": "string",
+            "mod": "unique"
+        },
+        "identifier": {
+            "type": "string",
+            "mod":  "unique"
+        },
+        "level_id": {
+            "type": "foreignId"
+        }
+    },
+    "relations": {
+
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "code": {
+            "type": "string",
+            "mod": "unique"
+        },
+        "description": {
+            "type": "text"
+        },
+        "program_id": {
+            "type": "foreignId"
+        }
+    },
+    "relations": {
+
+    }
+}

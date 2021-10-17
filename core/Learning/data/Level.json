@@ -1,0 +1,13 @@
+{
+    "attributes": {
+        "name": {
+            "type": "enum:level1,level2,level3,level4"
+        },
+        "description": {
+            "type": "text"
+        }
+    },
+    "relations": {
+
+    }
+}

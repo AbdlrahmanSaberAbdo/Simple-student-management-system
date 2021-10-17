@@ -1,0 +1,16 @@
+{
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        },
+        "level_id": {
+            "type": "foreignId"
+        }
+    },
+    "relations": {
+
+    }
+}
