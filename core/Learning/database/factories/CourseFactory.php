@@ -27,7 +27,7 @@ class CourseFactory extends Factory
             'name' => $this->faker->text(100),
             'code' => $this->faker->unique()->text(100),
             'description' => $this->faker->text(100),
-            'program_id'  => Program::inRandomOrder()->first()->id
+            'program_id'  => Program::factory()->create()->id
         ];
     }
 }

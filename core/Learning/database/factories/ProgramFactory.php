@@ -25,7 +25,7 @@ class ProgramFactory extends Factory
         return [
             'name' => $this->faker->text(100),
             'description' => $this->faker->text(100),
-            'level_id'    => Level::inRandomOrder()->first()->id
+            'level_id'    => Level::factory()->create()->id
         ];
     }
 }

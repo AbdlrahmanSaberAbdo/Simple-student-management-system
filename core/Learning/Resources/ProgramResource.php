@@ -16,9 +16,10 @@ class ProgramResource extends Resource
     public function toArray($request)
     {
         return [
-            'id'   => $this->id,
-            'name' => $this->name,
+            'id'          => $this->id,
+            'name'        => $this->name,
             'description' => $this->description,
+            'level_id'    => $this->level_id,
             $this->mergeWhen($request->route()->getName() == 'api.v1.programs.show', [
                 'level' => new LevelResource($this->level),
                 'courses' => new CourseResource($this->course)

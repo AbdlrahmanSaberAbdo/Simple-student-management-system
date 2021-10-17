@@ -20,6 +20,7 @@ class StudentResource extends Resource
             'birthdate' => $this->birthdate,
             'email' => $this->email,
             'identifier' => $this->identifier,
+            'level_id'      => $this->level_id,
             $this->mergeWhen($request->route()->getName() == 'api.v1.students.show', [
                 'level' => new LevelResource($this->level),
                 'courses' => $this->courses

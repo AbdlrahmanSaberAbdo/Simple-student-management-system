@@ -24,7 +24,7 @@ class ItemFactory extends Factory
     {
         return [
             'grade' => $this->faker->randomNumber(),
-            'course_id' => Course::inRandomOrder()->first()->id,
+            'course_id' => Course::factory()->create()->id,
         ];
     }
 }

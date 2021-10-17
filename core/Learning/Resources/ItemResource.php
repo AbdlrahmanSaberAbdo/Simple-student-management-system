@@ -15,8 +15,9 @@ class ItemResource extends Resource
     public function toArray($request)
     {
         return [
-            'id'   => $this->id,
-            'grade' => $this->grade,
+            'id'        => $this->id,
+            'grade'     => $this->grade,
+            'course_id' => $this->course_id,
             $this->mergeWhen($request->route()->getName() == 'api.v1.items.show', [
                 'course' => new CourseResource($this->course),
             ])

@@ -19,8 +19,9 @@ class CourseResource extends Resource
             'name' => $this->name,
             'code' => $this->code,
             'description' => $this->description,
+            'program_id'  => $this->program_id,
             $this->mergeWhen($request->route()->getName() == 'api.v1.courses.show', [
-                 'program'     => new ProgramResource($this->program),
+                'program'     => new ProgramResource($this->program),
                 'students' => StudentResource::collection($this->students),
                 'items'    => ItemResource::collection($this->items)
             ])
