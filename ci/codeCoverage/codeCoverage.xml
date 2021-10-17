@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1634489637">
+  <project timestamp="1634489637">
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Base\Controllers\API\Controller.php">
+      <class name="Core\Base\Controllers\API\Controller" namespace="global">
+        <metrics complexity="6" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="18" coveredelements="18"/>
+      </class>
+      <line num="55" type="method" name="index" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="57" type="stmt" count="5"/>
+      <line num="65" type="method" name="store" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="67" type="stmt" count="4"/>
+      <line num="68" type="stmt" count="4"/>
+      <line num="69" type="stmt" count="4"/>
+      <line num="70" type="stmt" count="4"/>
+      <line num="71" type="stmt" count="4"/>
+      <line num="81" type="method" name="show" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="83" type="stmt" count="5"/>
+      <line num="92" type="method" name="update" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="94" type="stmt" count="5"/>
+      <line num="95" type="stmt" count="5"/>
+      <line num="96" type="stmt" count="5"/>
+      <line num="106" type="method" name="destroy" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="108" type="stmt" count="5"/>
+      <line num="109" type="stmt" count="5"/>
+      <line num="110" type="stmt" count="5"/>
+      <metrics loc="112" ncloc="59" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="18" coveredelements="18"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Base\Controllers\Web\Controller.php">
+      <class name="Core\Base\Controllers\Web\Controller" namespace="global">
+        <metrics complexity="5" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="90" ncloc="43" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Base\Models\Base.php">
+      <class name="Core\Base\Models\Base" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+      </class>
+      <line num="24" type="method" name="newFactory" visibility="protected" complexity="1" crap="1" count="25"/>
+      <line num="26" type="stmt" count="25"/>
+      <line num="27" type="stmt" count="25"/>
+      <line num="28" type="stmt" count="25"/>
+      <line num="30" type="stmt" count="25"/>
+      <metrics loc="32" ncloc="22" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Base\Tests\TestCase.php">
+      <class name="Core\Base\Tests\TestCase" namespace="global">
+        <metrics complexity="8" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="103" ncloc="62" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Base\Tests\Unit\WebControllerTest.php">
+      <class name="Core\Base\Tests\Unit\WebControllerTest" namespace="global">
+        <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="21" elements="25" coveredelements="25"/>
+      </class>
+      <line num="23" type="method" name="setUp" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="25" type="stmt" count="3"/>
+      <line num="27" type="stmt" count="3"/>
+      <line num="28" type="stmt" count="3"/>
+      <line num="29" type="stmt" count="3"/>
+      <line num="30" type="stmt" count="3"/>
+      <line num="32" type="stmt" count="3"/>
+      <line num="33" type="stmt" count="3"/>
+      <line num="34" type="stmt" count="3"/>
+      <line num="36" type="stmt" count="3"/>
+      <line num="37" type="stmt" count="3"/>
+      <line num="38" type="stmt" count="3"/>
+      <line num="39" type="stmt" count="3"/>
+      <line num="40" type="stmt" count="3"/>
+      <line num="47" type="method" name="testNamespace" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="49" type="stmt" count="1"/>
+      <line num="50" type="stmt" count="1"/>
+      <line num="52" type="stmt" count="1"/>
+      <line num="60" type="method" name="testDirectory" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="62" type="stmt" count="1"/>
+      <line num="63" type="stmt" count="1"/>
+      <line num="65" type="stmt" count="1"/>
+      <line num="76" type="method" name="testPath" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="78" type="stmt" count="1"/>
+      <line num="79" type="stmt" count="1"/>
+      <metrics loc="80" ncloc="51" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="21" elements="25" coveredelements="25"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Base\Traits\Views\Path.php">
+      <class name="Core\Base\Traits\Views\Path" namespace="global">
+        <metrics complexity="10" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="27" coveredelements="27"/>
+      </class>
+      <line num="30" type="method" name="setNamespace" visibility="private" complexity="1" crap="1" count="3"/>
+      <line num="32" type="stmt" count="3"/>
+      <line num="33" type="stmt" count="3"/>
+      <line num="34" type="stmt" count="3"/>
+      <line num="41" type="method" name="getNamespace" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="43" type="stmt" count="1"/>
+      <line num="52" type="method" name="setDirectory" visibility="private" complexity="3" crap="3" count="3"/>
+      <line num="54" type="stmt" count="3"/>
+      <line num="56" type="stmt" count="3"/>
+      <line num="57" type="stmt" count="3"/>
+      <line num="58" type="stmt" count="3"/>
+      <line num="60" type="stmt" count="3"/>
+      <line num="63" type="stmt" count="3"/>
+      <line num="70" type="method" name="getDirectory" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="72" type="stmt" count="1"/>
+      <line num="82" type="method" name="setPath" visibility="protected" complexity="1" crap="1" count="3"/>
+      <line num="84" type="stmt" count="3"/>
+      <line num="85" type="stmt" count="3"/>
+      <line num="86" type="stmt" count="3"/>
+      <line num="87" type="stmt" count="3"/>
+      <line num="94" type="method" name="getPath" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="96" type="stmt" count="1"/>
+      <line num="104" type="method" name="setupView" visibility="private" complexity="1" crap="1" count="3"/>
+      <line num="106" type="stmt" count="3"/>
+      <line num="107" type="stmt" count="3"/>
+      <line num="108" type="stmt" count="3"/>
+      <line num="109" type="stmt" count="3"/>
+      <metrics loc="110" ncloc="61" classes="1" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="27" coveredelements="27"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Base\Traits\Views\Variable.php">
+      <class name="Core\Base\Traits\Views\Variable" namespace="global">
+        <metrics complexity="2" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="36" ncloc="29" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Controllers\API\V1\CourseController.php">
+      <class name="Core\Learning\Controllers\API\V1\CourseController" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </class>
+      <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="19" type="stmt" count="5"/>
+      <line num="20" type="stmt" count="5"/>
+      <metrics loc="21" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Controllers\API\V1\GradeController.php">
+      <class name="Core\Learning\Controllers\API\V1\GradeController" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </class>
+      <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <metrics loc="21" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Controllers\API\V1\ItemController.php">
+      <class name="Core\Learning\Controllers\API\V1\ItemController" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </class>
+      <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="19" type="stmt" count="5"/>
+      <line num="20" type="stmt" count="5"/>
+      <metrics loc="21" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Controllers\API\V1\LevelController.php">
+      <class name="Core\Learning\Controllers\API\V1\LevelController" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </class>
+      <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="19" type="stmt" count="5"/>
+      <line num="20" type="stmt" count="5"/>
+      <metrics loc="21" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Controllers\API\V1\ProgramController.php">
+      <class name="Core\Learning\Controllers\API\V1\ProgramController" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </class>
+      <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="19" type="stmt" count="5"/>
+      <line num="20" type="stmt" count="5"/>
+      <metrics loc="21" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Controllers\API\V1\StudentController.php">
+      <class name="Core\Learning\Controllers\API\V1\StudentController" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="14" coveredelements="14"/>
+      </class>
+      <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="19" type="stmt" count="5"/>
+      <line num="20" type="stmt" count="5"/>
+      <line num="22" type="method" name="store" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <line num="27" type="stmt" count="1"/>
+      <line num="28" type="stmt" count="1"/>
+      <line num="31" type="stmt" count="1"/>
+      <line num="32" type="stmt" count="1"/>
+      <line num="33" type="stmt" count="1"/>
+      <line num="34" type="stmt" count="1"/>
+      <line num="35" type="stmt" count="1"/>
+      <metrics loc="38" ncloc="32" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="14" coveredelements="14"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Controllers\Web\CourseController.php">
+      <class name="Core\Learning\Controllers\Web\CourseController" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="8" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Controllers\Web\GradeController.php">
+      <class name="Core\Learning\Controllers\Web\GradeController" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="8" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Controllers\Web\ItemController.php">
+      <class name="Core\Learning\Controllers\Web\ItemController" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="8" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Controllers\Web\LevelController.php">
+      <class name="Core\Learning\Controllers\Web\LevelController" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="8" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Controllers\Web\ProgramController.php">
+      <class name="Core\Learning\Controllers\Web\ProgramController" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="8" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Controllers\Web\StudentController.php">
+      <class name="Core\Learning\Controllers\Web\StudentController" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="8" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Models\Course.php">
+      <class name="Core\Learning\Models\Course" namespace="global">
+        <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
+      </class>
+      <line num="12" type="method" name="students" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="14" type="stmt" count="5"/>
+      <line num="17" type="method" name="items" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="18" type="stmt" count="5"/>
+      <line num="21" type="method" name="program" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="23" type="stmt" count="5"/>
+      <metrics loc="25" ncloc="25" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Models\Item.php">
+      <class name="Core\Learning\Models\Item" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="10" type="method" name="course" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="11" type="stmt" count="4"/>
+      <metrics loc="13" ncloc="13" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Models\Level.php">
+      <class name="Core\Learning\Models\Level" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="11" type="method" name="program" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="13" type="stmt" count="6"/>
+      <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Models\Program.php">
+      <class name="Core\Learning\Models\Program" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </class>
+      <line num="11" type="method" name="level" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="13" type="stmt" count="5"/>
+      <line num="16" type="method" name="course" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="18" type="stmt" count="6"/>
+      <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Models\Student.php">
+      <class name="Core\Learning\Models\Student" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </class>
+      <line num="11" type="method" name="courses" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="13" type="stmt" count="4"/>
+      <line num="16" type="method" name="level" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="18" type="stmt" count="4"/>
+      <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Tests\Feature\CourseTest.php">
+      <class name="Core\Learning\Tests\Feature\CourseTest" namespace="global">
+        <metrics complexity="9" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="43" coveredelements="43"/>
+      </class>
+      <line num="37" type="method" name="setUp" visibility="public" complexity="2" crap="2" count="5"/>
+      <line num="39" type="stmt" count="5"/>
+      <line num="41" type="stmt" count="5"/>
+      <line num="42" type="stmt" count="5"/>
+      <line num="43" type="stmt" count="5"/>
+      <line num="44" type="stmt" count="5"/>
+      <line num="46" type="stmt" count="5"/>
+      <line num="47" type="stmt" count="5"/>
+      <line num="49" type="stmt" count="5"/>
+      <line num="56" type="method" name="getNewEntry" visibility="protected" complexity="1" crap="1" count="4"/>
+      <line num="58" type="stmt" count="4"/>
+      <line num="66" type="method" name="getId" visibility="protected" complexity="1" crap="1" count="3"/>
+      <line num="68" type="stmt" count="3"/>
+      <line num="76" type="method" name="testItShouldGetListingOfTheResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="78" type="stmt" count="1"/>
+      <line num="79" type="stmt" count="1"/>
+      <line num="80" type="stmt" count="1"/>
+      <line num="81" type="stmt" count="1"/>
+      <line num="83" type="stmt" count="1"/>
+      <line num="84" type="stmt" count="1"/>
+      <line num="85" type="stmt" count="1"/>
+      <line num="86" type="stmt" count="1"/>
+      <line num="93" type="method" name="testItShouldStoreNewlyCreatedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="95" type="stmt" count="1"/>
+      <line num="96" type="stmt" count="1"/>
+      <line num="97" type="stmt" count="1"/>
+      <line num="98" type="stmt" count="1"/>
+      <line num="105" type="method" name="testItShouldGetSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="107" type="stmt" count="1"/>
+      <line num="108" type="stmt" count="1"/>
+      <line num="109" type="stmt" count="1"/>
+      <line num="110" type="stmt" count="1"/>
+      <line num="117" type="method" name="testItShouldUpdateSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="119" type="stmt" count="1"/>
+      <line num="120" type="stmt" count="1"/>
+      <line num="121" type="stmt" count="1"/>
+      <line num="122" type="stmt" count="1"/>
+      <line num="129" type="method" name="testItShouldRemoveSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="131" type="stmt" count="1"/>
+      <line num="132" type="stmt" count="1"/>
+      <line num="133" type="stmt" count="1"/>
+      <line num="134" type="stmt" count="1"/>
+      <line num="135" type="stmt" count="1"/>
+      <metrics loc="136" ncloc="80" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="43" coveredelements="43"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Tests\Feature\ItemTest.php">
+      <class name="Core\Learning\Tests\Feature\ItemTest" namespace="global">
+        <metrics complexity="9" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="43" coveredelements="43"/>
+      </class>
+      <line num="37" type="method" name="setUp" visibility="public" complexity="2" crap="2" count="5"/>
+      <line num="39" type="stmt" count="5"/>
+      <line num="41" type="stmt" count="5"/>
+      <line num="42" type="stmt" count="5"/>
+      <line num="43" type="stmt" count="5"/>
+      <line num="44" type="stmt" count="5"/>
+      <line num="46" type="stmt" count="5"/>
+      <line num="47" type="stmt" count="5"/>
+      <line num="49" type="stmt" count="5"/>
+      <line num="56" type="method" name="getNewEntry" visibility="protected" complexity="1" crap="1" count="4"/>
+      <line num="58" type="stmt" count="4"/>
+      <line num="66" type="method" name="getId" visibility="protected" complexity="1" crap="1" count="3"/>
+      <line num="68" type="stmt" count="3"/>
+      <line num="76" type="method" name="testItShouldGetListingOfTheResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="78" type="stmt" count="1"/>
+      <line num="79" type="stmt" count="1"/>
+      <line num="80" type="stmt" count="1"/>
+      <line num="81" type="stmt" count="1"/>
+      <line num="83" type="stmt" count="1"/>
+      <line num="84" type="stmt" count="1"/>
+      <line num="85" type="stmt" count="1"/>
+      <line num="86" type="stmt" count="1"/>
+      <line num="93" type="method" name="testItShouldStoreNewlyCreatedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="95" type="stmt" count="1"/>
+      <line num="96" type="stmt" count="1"/>
+      <line num="97" type="stmt" count="1"/>
+      <line num="98" type="stmt" count="1"/>
+      <line num="105" type="method" name="testItShouldGetSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="107" type="stmt" count="1"/>
+      <line num="108" type="stmt" count="1"/>
+      <line num="109" type="stmt" count="1"/>
+      <line num="110" type="stmt" count="1"/>
+      <line num="117" type="method" name="testItShouldUpdateSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="119" type="stmt" count="1"/>
+      <line num="120" type="stmt" count="1"/>
+      <line num="121" type="stmt" count="1"/>
+      <line num="122" type="stmt" count="1"/>
+      <line num="129" type="method" name="testItShouldRemoveSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="131" type="stmt" count="1"/>
+      <line num="132" type="stmt" count="1"/>
+      <line num="133" type="stmt" count="1"/>
+      <line num="134" type="stmt" count="1"/>
+      <line num="135" type="stmt" count="1"/>
+      <metrics loc="136" ncloc="80" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="43" coveredelements="43"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Tests\Feature\LevelTest.php">
+      <class name="Core\Learning\Tests\Feature\LevelTest" namespace="global">
+        <metrics complexity="9" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="43" coveredelements="43"/>
+      </class>
+      <line num="37" type="method" name="setUp" visibility="public" complexity="2" crap="2" count="5"/>
+      <line num="39" type="stmt" count="5"/>
+      <line num="41" type="stmt" count="5"/>
+      <line num="42" type="stmt" count="5"/>
+      <line num="43" type="stmt" count="5"/>
+      <line num="44" type="stmt" count="5"/>
+      <line num="46" type="stmt" count="5"/>
+      <line num="47" type="stmt" count="5"/>
+      <line num="49" type="stmt" count="5"/>
+      <line num="56" type="method" name="getNewEntry" visibility="protected" complexity="1" crap="1" count="4"/>
+      <line num="58" type="stmt" count="4"/>
+      <line num="66" type="method" name="getId" visibility="protected" complexity="1" crap="1" count="3"/>
+      <line num="68" type="stmt" count="3"/>
+      <line num="76" type="method" name="testItShouldGetListingOfTheResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="78" type="stmt" count="1"/>
+      <line num="79" type="stmt" count="1"/>
+      <line num="80" type="stmt" count="1"/>
+      <line num="81" type="stmt" count="1"/>
+      <line num="83" type="stmt" count="1"/>
+      <line num="84" type="stmt" count="1"/>
+      <line num="85" type="stmt" count="1"/>
+      <line num="86" type="stmt" count="1"/>
+      <line num="93" type="method" name="testItShouldStoreNewlyCreatedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="95" type="stmt" count="1"/>
+      <line num="96" type="stmt" count="1"/>
+      <line num="97" type="stmt" count="1"/>
+      <line num="98" type="stmt" count="1"/>
+      <line num="105" type="method" name="testItShouldGetSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="107" type="stmt" count="1"/>
+      <line num="108" type="stmt" count="1"/>
+      <line num="109" type="stmt" count="1"/>
+      <line num="110" type="stmt" count="1"/>
+      <line num="117" type="method" name="testItShouldUpdateSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="119" type="stmt" count="1"/>
+      <line num="120" type="stmt" count="1"/>
+      <line num="121" type="stmt" count="1"/>
+      <line num="122" type="stmt" count="1"/>
+      <line num="129" type="method" name="testItShouldRemoveSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="131" type="stmt" count="1"/>
+      <line num="132" type="stmt" count="1"/>
+      <line num="133" type="stmt" count="1"/>
+      <line num="134" type="stmt" count="1"/>
+      <line num="135" type="stmt" count="1"/>
+      <metrics loc="136" ncloc="80" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="43" coveredelements="43"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Tests\Feature\ProgramTest.php">
+      <class name="Core\Learning\Tests\Feature\ProgramTest" namespace="global">
+        <metrics complexity="9" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="43" coveredelements="43"/>
+      </class>
+      <line num="37" type="method" name="setUp" visibility="public" complexity="2" crap="2" count="5"/>
+      <line num="39" type="stmt" count="5"/>
+      <line num="41" type="stmt" count="5"/>
+      <line num="42" type="stmt" count="5"/>
+      <line num="43" type="stmt" count="5"/>
+      <line num="44" type="stmt" count="5"/>
+      <line num="46" type="stmt" count="5"/>
+      <line num="47" type="stmt" count="5"/>
+      <line num="49" type="stmt" count="5"/>
+      <line num="56" type="method" name="getNewEntry" visibility="protected" complexity="1" crap="1" count="4"/>
+      <line num="58" type="stmt" count="4"/>
+      <line num="66" type="method" name="getId" visibility="protected" complexity="1" crap="1" count="3"/>
+      <line num="68" type="stmt" count="3"/>
+      <line num="76" type="method" name="testItShouldGetListingOfTheResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="78" type="stmt" count="1"/>
+      <line num="79" type="stmt" count="1"/>
+      <line num="80" type="stmt" count="1"/>
+      <line num="81" type="stmt" count="1"/>
+      <line num="83" type="stmt" count="1"/>
+      <line num="84" type="stmt" count="1"/>
+      <line num="85" type="stmt" count="1"/>
+      <line num="86" type="stmt" count="1"/>
+      <line num="93" type="method" name="testItShouldStoreNewlyCreatedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="95" type="stmt" count="1"/>
+      <line num="96" type="stmt" count="1"/>
+      <line num="97" type="stmt" count="1"/>
+      <line num="98" type="stmt" count="1"/>
+      <line num="105" type="method" name="testItShouldGetSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="107" type="stmt" count="1"/>
+      <line num="108" type="stmt" count="1"/>
+      <line num="109" type="stmt" count="1"/>
+      <line num="110" type="stmt" count="1"/>
+      <line num="117" type="method" name="testItShouldUpdateSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="119" type="stmt" count="1"/>
+      <line num="120" type="stmt" count="1"/>
+      <line num="121" type="stmt" count="1"/>
+      <line num="122" type="stmt" count="1"/>
+      <line num="129" type="method" name="testItShouldRemoveSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="131" type="stmt" count="1"/>
+      <line num="132" type="stmt" count="1"/>
+      <line num="133" type="stmt" count="1"/>
+      <line num="134" type="stmt" count="1"/>
+      <line num="135" type="stmt" count="1"/>
+      <metrics loc="136" ncloc="80" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="43" coveredelements="43"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\Tests\Feature\StudentTest.php">
+      <class name="Core\Learning\Tests\Feature\StudentTest" namespace="global">
+        <metrics complexity="9" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="43" coveredelements="43"/>
+      </class>
+      <line num="37" type="method" name="setUp" visibility="public" complexity="2" crap="2" count="5"/>
+      <line num="39" type="stmt" count="5"/>
+      <line num="41" type="stmt" count="5"/>
+      <line num="42" type="stmt" count="5"/>
+      <line num="43" type="stmt" count="5"/>
+      <line num="44" type="stmt" count="5"/>
+      <line num="46" type="stmt" count="5"/>
+      <line num="47" type="stmt" count="5"/>
+      <line num="49" type="stmt" count="5"/>
+      <line num="56" type="method" name="getNewEntry" visibility="protected" complexity="1" crap="1" count="4"/>
+      <line num="58" type="stmt" count="4"/>
+      <line num="66" type="method" name="getId" visibility="protected" complexity="1" crap="1" count="3"/>
+      <line num="68" type="stmt" count="3"/>
+      <line num="76" type="method" name="testItShouldGetListingOfTheResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="78" type="stmt" count="1"/>
+      <line num="79" type="stmt" count="1"/>
+      <line num="80" type="stmt" count="1"/>
+      <line num="81" type="stmt" count="1"/>
+      <line num="83" type="stmt" count="1"/>
+      <line num="84" type="stmt" count="1"/>
+      <line num="85" type="stmt" count="1"/>
+      <line num="86" type="stmt" count="1"/>
+      <line num="93" type="method" name="testItShouldStoreNewlyCreatedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="96" type="stmt" count="1"/>
+      <line num="97" type="stmt" count="1"/>
+      <line num="98" type="stmt" count="1"/>
+      <line num="99" type="stmt" count="1"/>
+      <line num="106" type="method" name="testItShouldGetSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="108" type="stmt" count="1"/>
+      <line num="109" type="stmt" count="1"/>
+      <line num="110" type="stmt" count="1"/>
+      <line num="111" type="stmt" count="1"/>
+      <line num="118" type="method" name="testItShouldUpdateSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="120" type="stmt" count="1"/>
+      <line num="121" type="stmt" count="1"/>
+      <line num="122" type="stmt" count="1"/>
+      <line num="123" type="stmt" count="1"/>
+      <line num="130" type="method" name="testItShouldRemoveSpecifiedResource" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="132" type="stmt" count="1"/>
+      <line num="133" type="stmt" count="1"/>
+      <line num="134" type="stmt" count="1"/>
+      <line num="135" type="stmt" count="1"/>
+      <line num="136" type="stmt" count="1"/>
+      <metrics loc="137" ncloc="81" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="43" coveredelements="43"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\database\seeders\CourseSeeder.php">
+      <class name="Core\Learning\Database\seeders\CourseSeeder" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </class>
+      <line num="12" type="method" name="run" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <metrics loc="16" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\database\seeders\ItemSeeder.php">
+      <class name="Core\Learning\Database\seeders\ItemSeeder" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="8" coveredelements="0"/>
+      </class>
+      <line num="12" type="method" name="run" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <metrics loc="22" ncloc="22" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="8" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\database\seeders\LevelSeeder.php">
+      <class name="Core\Learning\Database\seeders\LevelSeeder" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </class>
+      <line num="12" type="method" name="run" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <metrics loc="16" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\database\seeders\ProgramSeeder.php">
+      <class name="Core\Learning\Database\seeders\ProgramSeeder" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </class>
+      <line num="11" type="method" name="run" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp_v8\htdocs\student-management-system\Simple-student-management-system\core\Learning\database\seeders\StudentSeeder.php">
+      <class name="Core\Learning\Database\seeders\StudentSeeder" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </class>
+      <line num="10" type="method" name="run" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <metrics loc="14" ncloc="14" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+    </file>
+    <metrics files="34" loc="1611" ncloc="1059" classes="25" methods="78" coveredmethods="72" conditionals="0" coveredconditionals="0" statements="279" coveredstatements="262" elements="357" coveredelements="334"/>
+  </project>
+</coverage>
